@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #F2F4F4;
+}
+
+.container {
+    width: 100%;
+    max-width: 1414px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+    background-color: #0362d4;
+}
+
+.header-bg {
+    background-color: #0362d4;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header-text {
+    width: 300px;
+    color: #FFF;
+    padding-left: 10px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.header-right img {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.header-right i {
+    color: #9eaec2;
+    cursor: pointer;
+}
+
+.hero {
+    margin-top: 40px;
+    height: 60px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    box-shadow: 3px 3px 14px 0 rgb(0 0 0 / 19%);
+}
+
+.hero a i {
+    color: #0361d4a6;
+    transform: scale(1.4);
+}
+
+.fa-angle-right  {
+    margin-left: 40px;
+    color: #8494a7;
+}
+
+.hero p {
+    color: #5A8DEE;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-left: 30px;
+}
+
+.registration {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px 30px;
+    background-image: url(../images/index-bg.png);
+    margin-top: 50px;
+    height: 280px;
+}
+
+.registration h1 {
+    color: #FFF;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.registration-link {
+    display: flex;
+    margin-top: 40px;
+}
+
+.registration-link a {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid #fff;
+    border-radius: 9px;
+    padding: 0px 20px;
+    margin-right: 20px;
+    transition: 0.1s ease-in-out;
+}
+
+.registration-link a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.registration-link a:active {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.registration-link a:last-child {
+    border: 0;
+    padding: 0;
+    background-color: 0;
+}
+
+.registration-link a i {
+    margin-right: 5px;
+}
+
+.services {
+    margin-top: 80px;
+}
+
+.services ul {
+    display: flex;
+}
+
+.services ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    width: 315px;
+    height: 200px;
+    box-shadow: -8px 12px 18px 0 rgb(25 42 70 / 13%);
+    border: 0px solid #dfe3e7;
+    border-radius: 8px;
+    color: #475F7B;
+    margin-right: 40px;
+    transition: 0.2s ease-in-out;
+}
+
+.services ul li img {
+    padding-top: 20px;
+    margin-bottom: 25px;
+    transform: scale(1.7);
+}
+
+.services ul li:hover {
+    background-color: #719DF0;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: -8px 12px 18px 0 rgb(25 42 70 / 13%);
+}
+
+.services ul li p {
+    font-weight: bolder;
+    line-height: 1.2;
+    margin-top: 15px;
+    padding: 0px 30px;
+    text-align: center;
+}
+
+footer {
+    height: 60px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .link-end {
+    color: #5A8DEE;
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: 180px;
+}
+
+footer .link-end:hover {
+    color: #0362d4;
+}
+
+.footer-link {
+    display: flex;
+    margin-right: 180px;
+}
+
+.footer-link li {
+    list-style: none;
+}
+
+.footer-link li a {
+    color: #727E8C;
+    margin-right: 15px;
+}
+
+.footer-bg {
+    box-shadow: 0px 8px 12px 12px rgb(25 42 70 / 12%);
+}
+
+.main {
+    box-sizing: border-box;
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    width: 5%;
+    height: 5%;
+    background-color: #5A8DEE;
+    z-index: 99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.main i {
+    color: #FFF;
+    transform: scale(1.7);
+}
